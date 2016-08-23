@@ -9,7 +9,7 @@
                 <?php
                 foreach ($employees as $single_user) {
                     ?>
-                    <div class="col-lg-3">
+                    <div class="col-xs-12 col-sm-4 col-md-3 col-lg-3">
                         <div class="item">
                             <h4><a href="<?php echo base_url('admin/employee/'.$single_user['id']); ?>"><?php echo ($single_user['emp_name']!='')?$single_user['emp_name']:'No Name'; ?></a></h4>
                             <h6><?php echo ($single_user['emp_current_designation']!='')?$single_user['emp_current_designation']:'&nbsp;' ?></h6>

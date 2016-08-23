@@ -8,7 +8,7 @@
                     <span class="info-box-icon"><i class="fa fa-users"></i></span>
                     <div class="info-box-content">
                         <span class="info-box-text">সশস্ত্র নিরাপত্তা প্রহরী</span>
-                        <span class="info-box-number">41,410</span>
+                        <span class="info-box-number">&nbsp;&nbsp;</span>
                         <div class="progress">
                             <div class="progress-bar" style="width: 100%"></div>
                         </div>
@@ -26,7 +26,7 @@
                     <span class="info-box-icon"><i class="fa fa-users"></i></span>
                     <div class="info-box-content">
                         <span class="info-box-text">এমটি ক্লিনার</span>
-                        <span class="info-box-number">41,410</span>
+                        <span class="info-box-number">&nbsp;&nbsp;</span>
                         <div class="progress">
                             <div class="progress-bar" style="width: 100%"></div>
                         </div>
@@ -44,7 +44,7 @@
                     <span class="info-box-icon"><i class="fa fa-users"></i></span>
                     <div class="info-box-content">
                         <span class="info-box-text">রাজশাহী বিমানবন্দর</span>
-                        <span class="info-box-number">41,410</span>
+                        <span class="info-box-number">&nbsp;&nbsp;</span>
                         <div class="progress">
                             <div class="progress-bar" style="width: 100%"></div>
                         </div>
@@ -63,7 +63,7 @@
                     <span class="info-box-icon"><i class="fa fa-users"></i></span>
                     <div class="info-box-content">
                         <span class="info-box-text">সিভিল ডিভশন 1</span>
-                        <span class="info-box-number">41,410</span>
+                        <span class="info-box-number">&nbsp;&nbsp;</span>
                         <div class="progress">
                             <div class="progress-bar" style="width: 100%"></div>
                         </div>
@@ -82,7 +82,7 @@
                     <span class="info-box-icon"><i class="fa fa-users"></i></span>
                     <div class="info-box-content">
                         <span class="info-box-text">সিভিল ডিভশন-2</span>
-                        <span class="info-box-number">41,410</span>
+                        <span class="info-box-number">&nbsp;&nbsp;</span>
                         <div class="progress">
                             <div class="progress-bar" style="width: 100%"></div>
                         </div>
@@ -101,7 +101,7 @@
                     <span class="info-box-icon"><i class="fa fa-users"></i></span>
                     <div class="info-box-content">
                         <span class="info-box-text">সিভিল সার্কেল</span>
-                        <span class="info-box-number">41,410</span>
+                        <span class="info-box-number">&nbsp;&nbsp;</span>
                         <div class="progress">
                             <div class="progress-bar" style="width: 100%"></div>
                         </div>
@@ -120,7 +120,7 @@
                     <span class="info-box-icon"><i class="fa fa-users"></i></span>
                     <div class="info-box-content">
                         <span class="info-box-text">সম্পত্তি শাখা</span>
-                        <span class="info-box-number">41,410</span>
+                        <span class="info-box-number">&nbsp;&nbsp;</span>
                         <div class="progress">
                             <div class="progress-bar" style="width: 100%"></div>
                         </div>
@@ -139,7 +139,7 @@
                     <span class="info-box-icon"><i class="fa fa-users"></i></span>
                     <div class="info-box-content">
                         <span class="info-box-text">সদস্য (পরিঃ)</span>
-                        <span class="info-box-number">41,410</span>
+                        <span class="info-box-number">&nbsp;&nbsp;</span>
                         <div class="progress">
                             <div class="progress-bar" style="width: 100%"></div>
                         </div>
@@ -158,7 +158,7 @@
                     <span class="info-box-icon"><i class="fa fa-users"></i></span>
                     <div class="info-box-content">
                         <span class="info-box-text">চেয়ারম্যান সচিবালয়</span>
-                        <span class="info-box-number">41,410</span>
+                        <span class="info-box-number">&nbsp;&nbsp;</span>
                         <div class="progress">
                             <div class="progress-bar" style="width: 100%"></div>
                         </div>
@@ -177,7 +177,7 @@
                     <span class="info-box-icon"><i class="fa fa-users"></i></span>
                     <div class="info-box-content">
                         <span class="info-box-text">আইন শাখা</span>
-                        <span class="info-box-number">41,410</span>
+                        <span class="info-box-number">&nbsp;&nbsp;</span>
                         <div class="progress">
                             <div class="progress-bar" style="width: 100%"></div>
                         </div>
@@ -196,7 +196,7 @@
                     <span class="info-box-icon"><i class="fa fa-users"></i></span>
                     <div class="info-box-content">
                         <span class="info-box-text">সদর দপ্তর, এমটি-পুল</span>
-                        <span class="info-box-number">41,410</span>
+                        <span class="info-box-number">&nbsp;&nbsp;</span>
                         <div class="progress">
                             <div class="progress-bar" style="width: 100%"></div>
                         </div>
@@ -215,7 +215,7 @@
                     <span class="info-box-icon"><i class="fa fa-users"></i></span>
                     <div class="info-box-content">
                         <span class="info-box-text">যোগাযোগ বিভাগ</span>
-                        <span class="info-box-number">41,410</span>
+                        <span class="info-box-number">&nbsp;&nbsp;</span>
                         <div class="progress">
                             <div class="progress-bar" style="width: 100%"></div>
                         </div>
@@ -234,7 +234,7 @@
                     <span class="info-box-icon"><i class="fa fa-users"></i></span>
                     <div class="info-box-content">
                         <span class="info-box-text">এটিএস এন্ড এরো বিভাগ</span>
-                        <span class="info-box-number">41,410</span>
+                        <span class="info-box-number">&nbsp;&nbsp;</span>
                         <div class="progress">
                             <div class="progress-bar" style="width: 100%"></div>
                         </div>
@@ -253,7 +253,7 @@
                     <span class="info-box-icon"><i class="fa fa-users"></i></span>
                     <div class="info-box-content">
                         <span class="info-box-text">পরিকল্পনা ও প্রশিক্ষণ বিভাগ</span>
-                        <span class="info-box-number">41,410</span>
+                        <span class="info-box-number">&nbsp;&nbsp;</span>
                         <div class="progress">
                             <div class="progress-bar" style="width: 100%"></div>
                         </div>
@@ -272,7 +272,7 @@
                     <span class="info-box-icon"><i class="fa fa-users"></i></span>
                     <div class="info-box-content">
                         <span class="info-box-text">এফএস আর বিভাগ</span>
-                        <span class="info-box-number">41,410</span>
+                        <span class="info-box-number">&nbsp;&nbsp;</span>
                         <div class="progress">
                             <div class="progress-bar" style="width: 100%"></div>
                         </div>
@@ -291,7 +291,7 @@
                     <span class="info-box-icon"><i class="fa fa-users"></i></span>
                     <div class="info-box-content">
                         <span class="info-box-text">অর্থ বিভাগ</span>
-                        <span class="info-box-number">41,410</span>
+                        <span class="info-box-number">&nbsp;&nbsp;</span>
                         <div class="progress">
                             <div class="progress-bar" style="width: 100%"></div>
                         </div>
@@ -310,7 +310,7 @@
                     <span class="info-box-icon"><i class="fa fa-users"></i></span>
                     <div class="info-box-content">
                         <span class="info-box-text">প্রধান-প্রকৌশলীর-দপ্তর</span>
-                        <span class="info-box-number">41,410</span>
+                        <span class="info-box-number">&nbsp;&nbsp;</span>
                         <div class="progress">
                             <div class="progress-bar" style="width: 100%"></div>
                         </div>
@@ -329,7 +329,7 @@
                     <span class="info-box-icon"><i class="fa fa-users"></i></span>
                     <div class="info-box-content">
                         <span class="info-box-text">প্রশাসন বিভাগ</span>
-                        <span class="info-box-number">41,410</span>
+                        <span class="info-box-number">&nbsp;&nbsp;</span>
                         <div class="progress">
                             <div class="progress-bar" style="width: 100%"></div>
                         </div>
@@ -348,7 +348,7 @@
                     <span class="info-box-icon"><i class="fa fa-users"></i></span>
                     <div class="info-box-content">
                         <span class="info-box-text">অডিট ভবন</span>
-                        <span class="info-box-number">41,410</span>
+                        <span class="info-box-number">&nbsp;&nbsp;</span>
                         <div class="progress">
                             <div class="progress-bar" style="width: 100%"></div>
                         </div>
@@ -366,7 +366,7 @@
                     <span class="info-box-icon"><i class="fa fa-users"></i></span>
                     <div class="info-box-content">
                         <span class="info-box-text">জনসংযোগ বিভাগ</span>
-                        <span class="info-box-number">41,410</span>
+                        <span class="info-box-number">&nbsp;&nbsp;</span>
                         <div class="progress">
                             <div class="progress-bar" style="width: 100%"></div>
                         </div>
@@ -385,7 +385,7 @@
                     <span class="info-box-icon"><i class="fa fa-users"></i></span>
                     <div class="info-box-content">
                         <span class="info-box-text">প্রশাসন বিভাগ ২</span>
-                        <span class="info-box-number">41,410</span>
+                        <span class="info-box-number">&nbsp;&nbsp;</span>
                         <div class="progress">
                             <div class="progress-bar" style="width: 100%"></div>
                         </div>
@@ -404,7 +404,7 @@
                     <span class="info-box-icon"><i class="fa fa-users"></i></span>
                     <div class="info-box-content">
                         <span class="info-box-text">যোগাযোগ বিভাগ</span>
-                        <span class="info-box-number">41,410</span>
+                        <span class="info-box-number">&nbsp;&nbsp;</span>
                         <div class="progress">
                             <div class="progress-bar" style="width: 100%"></div>
                         </div>
@@ -423,7 +423,7 @@
                     <span class="info-box-icon"><i class="fa fa-users"></i></span>
                     <div class="info-box-content">
                         <span class="info-box-text">প্রশাসন শাখা</span>
-                        <span class="info-box-number">41,410</span>
+                        <span class="info-box-number">&nbsp;&nbsp;</span>
                         <div class="progress">
                             <div class="progress-bar" style="width: 100%"></div>
                         </div>
@@ -442,7 +442,7 @@
                     <span class="info-box-icon"><i class="fa fa-users"></i></span>
                     <div class="info-box-content">
                         <span class="info-box-text">সিভিল ডিভিশন 3</span>
-                        <span class="info-box-number">41,410</span>
+                        <span class="info-box-number">&nbsp;&nbsp;</span>
                         <div class="progress">
                             <div class="progress-bar" style="width: 100%"></div>
                         </div>
@@ -461,7 +461,7 @@
                     <span class="info-box-icon"><i class="fa fa-users"></i></span>
                     <div class="info-box-content">
                         <span class="info-box-text">ই/এম সার্কেল 2</span>
-                        <span class="info-box-number">41,410</span>
+                        <span class="info-box-number">&nbsp;&nbsp;</span>
                         <div class="progress">
                             <div class="progress-bar" style="width: 100%"></div>
                         </div>
@@ -480,7 +480,7 @@
                     <span class="info-box-icon"><i class="fa fa-users"></i></span>
                     <div class="info-box-content">
                         <span class="info-box-text">ই/এম বিভাগ 1</span>
-                        <span class="info-box-number">41,410</span>
+                        <span class="info-box-number">&nbsp;&nbsp;</span>
                         <div class="progress">
                             <div class="progress-bar" style="width: 100%"></div>
                         </div>
@@ -499,7 +499,7 @@
                     <span class="info-box-icon"><i class="fa fa-users"></i></span>
                     <div class="info-box-content">
                         <span class="info-box-text">ই/এম বিভাগ 2</span>
-                        <span class="info-box-number">41,410</span>
+                        <span class="info-box-number">&nbsp;&nbsp;</span>
                         <div class="progress">
                             <div class="progress-bar" style="width: 100%"></div>
                         </div>
@@ -518,7 +518,7 @@
                     <span class="info-box-icon"><i class="fa fa-users"></i></span>
                     <div class="info-box-content">
                         <span class="info-box-text">ই/এম বিভাগ 3</span>
-                        <span class="info-box-number">41,410</span>
+                        <span class="info-box-number">&nbsp;&nbsp;</span>
                         <div class="progress">
                             <div class="progress-bar" style="width: 100%"></div>
                         </div>
@@ -537,7 +537,7 @@
                     <span class="info-box-icon"><i class="fa fa-users"></i></span>
                     <div class="info-box-content">
                         <span class="info-box-text">পরিচালকের দপ্তর</span>
-                        <span class="info-box-number">41,410</span>
+                        <span class="info-box-number">&nbsp;&nbsp;</span>
                         <div class="progress">
                             <div class="progress-bar" style="width: 100%"></div>
                         </div>
