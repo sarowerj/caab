@@ -1,0 +1,185 @@
+body{
+    font-size: 15px;
+}
+label{
+    font-weight: 500;
+}
+table.table tr th{
+    background:#dfe7f1;
+    font-weight:normal;
+}
+.table-bordered>thead>tr>th, 
+.table-bordered>tbody>tr>th, 
+.table-bordered>tfoot>tr>th, 
+.table-bordered>thead>tr>td,
+.table-bordered>tbody>tr>td, 
+.table-bordered>tfoot>tr>td,
+.table-bordered{
+    border: 1px solid #d2dbe8;
+}
+.main_title{
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+.user-panel > .info{
+    position: initial;
+    left: 0;
+}
+.display_block{
+    display: block;
+}
+.margin_top_0{
+    margin-top: 0;
+}
+.new_employee .content{
+    position: relative;
+}
+.new_employee .content .button_row{
+    position:absolute;
+    left: 15px;
+    right:15px;
+    bottom: 15px
+}
+.new_employee .content .sex label{
+    margin-right: 10px;
+}
+.new_employee .form-group{
+    margin-bottom: 20px;
+}
+.hints{
+    font-style: italic;
+    color:gray;
+    display:block;
+    margin-top: 5px;
+}
+.inside label{
+    font-size: 14px;
+    font-style: italic;
+    color:gray;
+}
+#step_1, #step_2, #step_3,#step_4{
+    position: absolute;
+    left: 15px;
+    right: 15px;
+    display: none;
+}
+#step_1{
+    display: block;
+}
+.new_employee .new_employee .table td, .new_employee .table thead th{
+    vertical-align: top;
+}
+.btn{
+    border-radius: 0;
+}
+
+/*========== Alert Messages =========*/
+.alert_messages{
+    position: absolute;
+    max-width: 280px;
+    right:10px;
+    top:60px;
+    z-index: 9999;
+}
+.alert_msg{
+    display:none;
+    color:white;
+    opacity: 1;
+    box-shadow: 5px 5px 5px rgba(0,0,0,.25);
+}
+.alert-black{
+    background:rgba(0,0,0,.85);
+}
+.alert_msg .close{
+    color:white;
+    text-shadow:none;
+    opacity: 1;
+}/*== End Alert Message ==*/
+
+
+/*==========Bootstrap Tag Inputs ==*/
+.bootstrap-tagsinput{
+    width:100%;
+    border-radius: 0;
+    box-shadow: none;
+}
+/*==========All Employees==========*/
+.all_employee .all_items .item{
+    background:white;
+    padding: 15px 15px 0 15px;
+    border: 1px solid #dadee4;
+    box-shadow: 0 1px 4px 0 rgba(0,0,0,0.14);
+    text-align: center;
+    margin-bottom: 30px;
+}
+.all_employee .all_items .item a{
+    color:#333333;
+}
+.all_employee .all_items .item h4{
+    margin: 0;
+    height: 42px;
+}
+.all_employee .all_items .item .btn-primary{
+    margin:0 -15px 0px -15px;
+    width:calc(100% + 30px);
+    color:white;
+}
+
+/*==========Employee Details==========*/
+.employee_details .tab-content{
+    background:white;
+    border: 1px solid #ddd;
+    border-top: 0;
+    padding: 15px;
+}
+.nav-tabs>li>a{
+    border-radius: 0;
+}
+.employee_details .tab-content .tab-pane>.row>div{
+    padding:10px 15px;
+}
+.employee_details .tab-content .tab-pane>.row .col-sm-8{
+    border-left: 1px solid #cad3de;
+}
+.employee_details .tab-content .tab-pane>.row .col-sm-4{
+    border-right: 1px solid #cad3de;
+    margin-right: -1px;
+}
+.employee_details .tab-content .tab-pane>.row{
+    background:white;
+    margin:0;
+    border:1px solid #cad3de;
+    margin-bottom: -1px;
+}
+.employee_details .tab-content .tab-pane>.row:nth-child(odd){
+    background:#edf0f5;
+}
+.employee_details .tab-content .tab-pane>.row .has_inner{
+    padding-left: 40px;
+}
+.employee_details .tab-pane .row ul{
+    padding: 0;
+}
+.employee_details .tab-pane .row ul li{
+    list-style: none;
+    margin-bottom: 5px;
+}
+.employee_details .tab-pane .row ul li .label{
+    display: inline-block;
+    color:inherit;
+    font-size: 14px;
+    font-weight: normal;
+    min-width:150px;
+    text-align: left;
+    position: relative;
+    margin-right: 15px;
+}
+.employee_details .tab-pane .row ul li .label::after{
+    content:':';
+    position: absolute;
+    right: 0;
+}
+.employee_details .professional_qualification li{
+    list-style: none;
+    margin-bottom: 10px;
+}
