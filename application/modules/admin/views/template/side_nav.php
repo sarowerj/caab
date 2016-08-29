@@ -28,7 +28,34 @@
                     </li>
                 </ul>
             </li>
-
+            
+            <li class="treeview <?php echo($meta == 'search') ? 'active' : ''; ?>">
+                <a href="javascript:void(0)">
+                    <i class="fa fa-puzzle-piece"></i> <span>Search</span> <i class="fa fa-angle-left pull-right"></i>
+                </a>
+                <ul class="treeview-menu">
+                    <li class="treeview <?php echo($active == 'emp_name') ? 'active' : ''; ?>">
+                        <a href="<?php echo base_url('admin/search?q=name'); ?>">
+                            <i class="fa fa-circle"></i> <span>Search by Name</span>
+                        </a>
+                    </li>
+                    <li class="treeview <?php echo($active == 'emp_current_designation') ? 'active' : ''; ?>">
+                        <a href="<?php echo base_url('admin/search?q=designation'); ?>">
+                            <i class="fa fa-circle"></i> <span>Search by Designation</span>
+                        </a>
+                    </li>
+                    <li class="treeview <?php echo($active == 'emp_apointment_date') ? 'active' : ''; ?>">
+                        <a href="<?php echo base_url('admin/search?q=appointment'); ?>">
+                            <i class="fa fa-circle"></i> <span>Search by Appointment</span>
+                        </a>
+                    </li>
+                    <li class="treeview <?php echo($active == 'emp_retirement_date') ? 'active' : ''; ?>">
+                        <a href="<?php echo base_url('admin/search?q=retirement'); ?>">
+                            <i class="fa fa-circle"></i> <span>Search by Retirement</span>
+                        </a>
+                    </li>
+                </ul>
+            </li>
         </ul>
     </section>
 </aside>

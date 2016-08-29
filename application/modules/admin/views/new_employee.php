@@ -26,37 +26,14 @@ if (isset($msg)) {
                 <div class="row">
                     <div class="col-xs-3"><h3 class="main_title">কর্মচারির জীবন বৃত্তান্ত</h3></div> 
                     <div class="col-xs-3">
-                        <select name="emp_dept" class="form-control">
-                            <option value="সশস্ত্র-নিরাপত্তা-প্রহরী">সশস্ত্র নিরাপত্তা প্রহরী</option>
-                            <option value="এমটি,-ক্লিনার">এমটি, ক্লিনার</option>
-                            <option value="রাজশাহী-বিমানবন্দর">রাজশাহী বিমানবন্দর</option>
-                            <option value="সিভিল-ডিভশন-2">সিভিল ডিভশন-2</option>
-                            <option value="সিভিল-ডিভশন-1">সিভিল ডিভশন-1</option>
-                            <option value="সিভিল-সার্কেল">সিভিল সার্কেল</option>
-                            <option value="সম্পত্তি-শাখা">সম্পত্তি শাখা</option>
-                            <option value="সদস্য-(পরিঃ)">সদস্য (পরিঃ)</option>
-                            <option value="চেয়ারম্যান-সচিবালয়">চেয়ারম্যান সচিবালয়</option>
-                            <option value="আইন-শাখা">আইন শাখা</option>
-                            <option value="সদর-দপ্তর,-এমটি-পুল" >সদর দপ্তর, এমটি পুল</option>
-                            <option value="যোগাযোগ-বিভাগ" >যোগাযোগ বিভাগ</option>
-                            <option value="এটিএস-এন্ড-এরো-বিভাগ" >এটিএস এন্ড এরো বিভাগ</option>
-                            <option value="পরিকল্পনা-ও-প্রশিক্ষণ-বিভাগ" >পরিকল্পনা ও প্রশিক্ষণ বিভাগ</option>
-                            <option value="এফএস-আর-বিভাগ" >এফএস আর বিভাগ</option>
-                            <option value="অর্থ-বিভাগ" >অর্থ বিভাগ</option>
-                            <option value="প্রধান-প্রকৌশলীর-দপ্তর" >প্রধান প্রকৌশলীর দপ্তর</option>
-                            <option value="প্রশাসন-বিভাগ" >প্রশাসন বিভাগ</option>
-                            <option value="অডিট-ভবন" >অডিট ভবন</option>
-                            <option value="জনসংযোগ-বিভাগ" >জনসংযোগ বিভাগ</option>
-                            <option value="প্রশাসন-বিভাগ-2" >প্রশাসন বিভাগ-2</option>
-                            <option value="যোগাযোগ-বিভাগ" >যোগাযোগ বিভাগ</option>
-                            <option value="প্রশাসন-শাখা" >প্রশাসন শাখা</option>
-                            <option value="সিভিল-ডিভিশন-3" >সিভিল ডিভিশন-3</option>
-                            <option value="ই/এম-সার্কেল-2" >ই/এম সার্কেল-2</option>
-                            <option value="ই/এম-বিভাগ-1" >ই/এম বিভাগ-1</option>
-                            <option value="ই/এম-বিভাগ-2" >ই/এম বিভাগ-2</option>
-                            <option value="ই/এম-বিভাগ-3" >ই/এম বিভাগ-3</option>
-                            <option value="পরিচালকের-দপ্তর" >পরিচালকের দপ্তর</option>
-                            <option value="বেসামরিক-বিমান-চলাচল-কর্তৃপক্ষ" >বেসামরিক বিমান চলাচল কর্তৃপক্ষ</option>
+                        <select name="emp_dept" class="form-control" id="emp_dept">
+                            <?php
+                            foreach ($dept as $single_dept) {
+                                ?>
+                                <option value="<?php echo $single_dept->slug; ?>"><?php echo $single_dept->dept; ?></option>
+                                <?php
+                            }
+                            ?>
                         </select>
                     </div>
                 </div>

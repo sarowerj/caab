@@ -3,8 +3,17 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
+            <file>file:/F:/xampp/htdocs/caab/application/modules/admin/views/edit_employee.php</file>
+            <file>file:/F:/xampp/htdocs/caab/assets/admin/css/style.css</file>
             <file>file:/F:/xampp/htdocs/caab/application/modules/admin/views/template/side_nav.php</file>
+            <file>file:/F:/xampp/htdocs/caab/application/modules/admin/views/search.php</file>
             <file>file:/F:/xampp/htdocs/caab/application/modules/admin/controllers/Admin.php</file>
+            <file>file:/F:/xampp/htdocs/caab/application/modules/admin/views/employee.php</file>
+            <file>file:/F:/xampp/htdocs/caab/application/modules/admin/views/all_employee.php</file>
+            <file>file:/F:/xampp/htdocs/caab/application/modules/admin/views/new_employee.php</file>
+            <file>file:/F:/xampp/htdocs/caab/application/modules/admin/models/Admin_model.php</file>
+            <file>file:/F:/xampp/htdocs/caab/application/modules/admin/views/dashboard.php</file>
+            <file>file:/F:/xampp/htdocs/caab/application/modules/admin/views/emp_by_cat.php</file>
         </group>
     </open-files>
 </project-private>

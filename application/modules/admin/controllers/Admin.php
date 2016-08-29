@@ -22,6 +22,7 @@ class Admin extends MY_Controller {
     public function index() {
         $this->data->meta = 'dashboard';
         $this->data->active = 'dashboard';
+        $this->data->dept = $this->Admin_model->getAll('dept');
         $this->template->load('admin/template/template_dashboard_admin', 'admin/dashboard', $this->data);
     }
 
@@ -39,6 +40,7 @@ class Admin extends MY_Controller {
     public function new_employee() {
         $this->data->meta = 'employee';
         $this->data->active = 'new_employee';
+        $this->data->dept = $this->Admin_model->getAll('dept');
         $this->template->load('admin/template/template_dashboard_admin', 'admin/new_employee', $this->data);
     }
 
@@ -821,6 +823,7 @@ class Admin extends MY_Controller {
         $this->data->meta = 'employee';
         $this->data->active = '';
         $this->data->status = '';
+        $this->data->dept = $this->Admin_model->getAll('dept');
 
         $user_id = $this->uri->segment(3);
 
@@ -1402,6 +1405,54 @@ class Admin extends MY_Controller {
         } elseif ($data_salary['lan'] == 'en') {
             redirect(base_url('admin/edit_en/' . $employee_id));
         }
+    }
+
+    public function search() {
+        $url = $_REQUEST['q'];
+        switch ($url) {
+            case "name":
+                $search = 'emp_name';
+                break;
+            case "designation":
+                $search = 'emp_current_designation';
+                break;
+            case "appointment":
+                $search = 'emp_apointment_date';
+                break;
+            case "retirement":
+                $search = 'emp_retirement_date';
+                break;
+            default :
+                $search = '';
+        }
+        $this->data->meta = 'search';
+        $this->data->active = $search;
+
+        $this->template->load('admin/template/template_dashboard_admin', 'admin/search', $this->data);
+    }
+
+    public function search_action() {
+        $search_by = $this->input->post('fld_name');
+        $value = $this->input->post('fld_value');
+
+        $array = array(
+            $search_by => $value,
+        );
+        $this->data->meta = 'search';
+        $this->data->active = $search_by;
+        $this->data->employees = $this->Admin_model->search_by_single($array);
+        $this->template->load('admin/template/template_dashboard_admin', 'admin/emp_by_cat', $this->data);
+    }
+
+    public function search_action_double() {
+        $search_by = $this->input->post('fld_name');
+        $value_from = strtotime($this->input->post('fld_value_from'));
+        $value_to = strtotime($this->input->post('fld_value_to'));
+        $array = [$search_by, $value_from, $value_to];
+        $this->data->meta = 'search';
+        $this->data->active = $search_by;
+        $this->data->employees = $this->Admin_model->search_by_double($array);
+        $this->template->load('admin/template/template_dashboard_admin', 'admin/emp_by_cat', $this->data);
     }
 
 }

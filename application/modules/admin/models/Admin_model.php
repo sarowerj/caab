@@ -48,7 +48,7 @@ class Admin_model extends Ci_Model {
                 ->get();
         return $query->result_array();
     }
-    
+
     public function getByIdLnBasicEn($tbl_name, $emp_id, $lan) {
         $check = array(
             'emp_id' => $emp_id,
@@ -85,7 +85,7 @@ class Admin_model extends Ci_Model {
 
         return $query->result_array();
     }
-    
+
     public function getAllUsersBasicCat($emp) {
         $query = $this->db->select('id,emp_name,emp_name_eng,emp_current_designation')
                 ->from('basic_info')
@@ -114,6 +114,27 @@ class Admin_model extends Ci_Model {
         $query = $this->db->where($column, $id)
                 ->update($table, $data);
     }
+
+    public function search_by_single($array) {
+        $query = $this->db->select('id,emp_name,emp_current_designation')
+                ->from('basic_info')
+                ->where($array)
+                ->get();
+        return $query->result_array();
+    }
+    
+    public function search_by_double($array) {
+        $fld_name = $array[0];
+        $from = $array[1];
+        $to = $array[2];
+        $query = $this->db->select('id,emp_name,emp_current_designation')
+                ->from('basic_info')
+                ->where($fld_name.'>=',$from)
+                ->where($fld_name.'<=',$to)
+                ->get();
+        return $query->result_array();
+    }
+
 }
 
 ?>

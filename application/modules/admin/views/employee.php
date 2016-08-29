@@ -53,7 +53,7 @@ if ($status == 'empty') {
                 <h5>
                     <?php
                     if (isset($info['basic_info'][0]['emp_dept'])) {
-                        echo $info['basic_info'][0]['emp_dept'];
+                        //echo $info['basic_info'][0]['emp_dept'];
                     }
                     ?>
                 </h5>
@@ -223,7 +223,19 @@ if ($status == 'empty') {
                                 </div>
                                 <div class="row">
                                     <div class="col-sm-4">
-                                        ১০।	জাতীয় পরিচয়পত্র নম্বর(যদি থাকে)
+                                        ১০।	জাতীয়তা
+                                    </div>
+                                    <div class="col-sm-8">
+                                        <?php
+                                        if (isset($info['basic_info'][0]['emp_nationality'])) {
+                                            echo $info['basic_info'][0]['emp_nationality'];
+                                        }
+                                        ?>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-sm-4">
+                                        ১১।	জাতীয় পরিচয়পত্র নম্বর(যদি থাকে)
                                     </div>
                                     <div class="col-sm-8">
                                         <?php
@@ -235,7 +247,7 @@ if ($status == 'empty') {
                                 </div>
                                 <div class="row">
                                     <div class="col-sm-4">
-                                        ১১। ধর্ম
+                                        ১২। ধর্ম
                                     </div>
                                     <div class="col-sm-8">
                                         <?php
@@ -247,7 +259,7 @@ if ($status == 'empty') {
                                 </div>
                                 <div class="row">
                                     <div class="col-sm-4">
-                                        ১২।	পাসপোর্ট নম্বর (যদি থাকে)
+                                        ১৩।	পাসপোর্ট নম্বর (যদি থাকে)
                                     </div>
                                     <div class="col-sm-8">
                                         <?php
@@ -259,7 +271,7 @@ if ($status == 'empty') {
                                 </div>
                                 <div class="row">
                                     <div class="col-sm-4">
-                                        ১৩।	পিতার নাম
+                                        ১৪।	পিতার নাম
                                     </div>
                                     <div class="col-sm-8">
                                         <?php
@@ -271,7 +283,7 @@ if ($status == 'empty') {
                                 </div>
                                 <div class="row">
                                     <div class="col-sm-4">
-                                        ১৪।	মাতার নাম
+                                        ১৫।	মাতার নাম
                                     </div>
                                     <div class="col-sm-8">
                                         <?php
@@ -283,7 +295,7 @@ if ($status == 'empty') {
                                 </div>
                                 <div class="row">
                                     <div class="col-sm-4">
-                                        ১৫। জন্ম তারিখ
+                                        ১৬। জন্ম তারিখ
                                     </div>
                                     <div class="col-sm-8">
                                         <?php
@@ -295,7 +307,7 @@ if ($status == 'empty') {
                                 </div>
                                 <div class="row">
                                     <div class="col-sm-4">
-                                        ১৬। রক্তের গ্রুপ
+                                        ১৭। রক্তের গ্রুপ
                                     </div>
                                     <div class="col-sm-8">
                                         <?php
@@ -335,7 +347,7 @@ if ($status == 'empty') {
                                 </div>
                                 <div class="row">
                                     <div class="col-sm-4">
-                                        ১৭।	লিঙ্গ
+                                        ১৮।	লিঙ্গ
                                     </div>
                                     <div class="col-sm-8">
                                         <?php
@@ -347,7 +359,7 @@ if ($status == 'empty') {
                                 </div>
                                 <div class="row">
                                     <div class="col-sm-4">
-                                        ১৮।	বৈবাহিক অবস্থা
+                                        ১৯।	বৈবাহিক অবস্থা
                                     </div>
                                     <div class="col-sm-8">
                                         <?php
@@ -359,7 +371,7 @@ if ($status == 'empty') {
                                 </div>
                                 <div class="row">
                                     <div class="col-sm-4">
-                                        ১৯।	স্বামী/স্ত্রীর নাম
+                                        ২০।	স্বামী/স্ত্রীর নাম
                                     </div>
                                     <div class="col-sm-8">
                                         <?php
@@ -371,7 +383,7 @@ if ($status == 'empty') {
                                 </div>
                                 <div class="row">
                                     <div class="col-sm-4">
-                                        ২০।	টেলিফোন নম্বর
+                                        ২১।	টেলিফোন নম্বর
                                     </div>
                                     <div class="col-sm-8"> 
                                         <?php
@@ -383,7 +395,7 @@ if ($status == 'empty') {
                                 </div>
                                 <div class="row">
                                     <div class="col-sm-4">
-                                        ২১।	মোবাইল নম্বর
+                                        ২২।	মোবাইল নম্বর
                                     </div>
                                     <div class="col-sm-8">
                                         <?php
@@ -395,7 +407,7 @@ if ($status == 'empty') {
                                 </div>
                                 <div class="row">
                                     <div class="col-sm-4">
-                                        ২২।	টিআইএন(যদি থাকে)
+                                        ২৩।	টিআইএন(যদি থাকে)
                                     </div>
                                     <div class="col-sm-8">
                                         <?php
@@ -407,7 +419,7 @@ if ($status == 'empty') {
                                 </div>
                                 <div class="row">
                                     <div class="col-sm-4">
-                                        ২৩।	ই-মেইল
+                                        ২৪।	ই-মেইল
                                     </div>
                                     <div class="col-sm-8">
                                         <?php
@@ -419,7 +431,7 @@ if ($status == 'empty') {
                                 </div>
                                 <div class="row">
                                     <div class="col-sm-4">
-                                        ২৪।	স্থায়ী ঠিকানা
+                                        ২৫।	স্থায়ী ঠিকানা
                                     </div>
                                     <div class="col-sm-8">
                                         <ul>
@@ -468,7 +480,7 @@ if ($status == 'empty') {
                                 </div>
                                 <div class="row">
                                     <div class="col-sm-4">
-                                        ২৫।	বর্তমান ঠিকানা
+                                        ২৬।	বর্তমান ঠিকানা
                                     </div>
                                     <div class="col-sm-8">
                                         <ul>
@@ -530,7 +542,7 @@ if ($status == 'empty') {
 
                             </div>
                             <div role="tabpanel" class="tab-pane fade " id="qualification">
-                                ২৬। শিক্ষাগত যোগ্যাতা 
+                                ২৭। শিক্ষাগত যোগ্যাতা 
                                 <br />
                                 <br />
                                 <table class="table table-bordered table-striped">
@@ -575,7 +587,7 @@ if ($status == 'empty') {
 
                                 <br />
                                 <br />
-                                ২৭। কর্মস্থলের তথ্য(সম্পূর্ণ চাকুরীকালীন)
+                                ২৮। কর্মস্থলের তথ্য(সম্পূর্ণ চাকুরীকালীন)
                                 <br />
                                 <br />
                                 <table class="table table-bordered table-striped">
@@ -585,6 +597,7 @@ if ($status == 'empty') {
                                             <th>কর্মস্থলের নাম</th>
                                             <th>হতে</th>
                                             <th>পর্যন্ত</th>
+                                            <th>সময়কাল</th>
                                             <th>মন্তব্য</th>
                                         </tr>
                                     </thead>
@@ -601,6 +614,7 @@ if ($status == 'empty') {
                                                         <td><?php echo $single_office_info['emp_office_name']; ?></td>
                                                         <td><?php echo ($single_office_info['emp_office_from'] != 0) ? date('d-m-Y', $single_office_info['emp_office_from']) . ' ইং' : ''; ?></td>
                                                         <td><?php echo ($single_office_info['emp_office_to'] != 0) ? date('d-m-Y', $single_office_info['emp_office_to']) . ' ইং' : ''; ?></td>
+                                                        <td><?php echo $single_office_info['emp_office_duration']; ?></td>
                                                         <td><?php echo $single_office_info['emp_office_about']; ?></td>
                                                     </tr>
                                                     <?php
@@ -610,7 +624,7 @@ if ($status == 'empty') {
                                         } else {
                                             ?>
                                             <tr>
-                                                <td colspan="5" class="text-center">No office information found.</td>
+                                                <td colspan="6" class="text-center">No office information found.</td>
                                             </tr>
                                             <?php
                                         }
@@ -620,7 +634,7 @@ if ($status == 'empty') {
 
                                 <br />
                                 <br />
-                                ২৮। পেশাগত যোগ্যতা:
+                                ২৯। পেশাগত যোগ্যতা:
                                 <br />
                                 <br />
                                 <table class="table table-bordered table-striped">
@@ -670,7 +684,7 @@ if ($status == 'empty') {
                                 <br />
                                 <div class="row">
                                     <div class="col-sm-4">
-                                        ২৯। কম্পিউটার পরিচালনায়
+                                        ৩০। কম্পিউটার পরিচালনায়
                                     </div>
                                     <div class="col-sm-8">
                                         <?php
@@ -685,7 +699,7 @@ if ($status == 'empty') {
                                 </div>
                                 <div class="row">
                                     <div class="col-sm-4">
-                                        ৩০। অবসরে গমনের সম্ভাব্য তারিখ
+                                        ৩১। অবসরে গমনের সম্ভাব্য তারিখ
                                     </div>
                                     <div class="col-sm-8">
                                         <?php
@@ -697,7 +711,7 @@ if ($status == 'empty') {
                                 </div>
                                 <div class="row">
                                     <div class="col-sm-4">
-                                        ৩১। সন্তান সংখ্যা
+                                        ৩২। সন্তান সংখ্যা
                                     </div>
                                     <div class="col-sm-8">
                                         <?php
@@ -709,7 +723,7 @@ if ($status == 'empty') {
                                 </div>
                                 <div class="row">
                                     <div class="col-sm-4">
-                                        ৩২। বিশেষ দক্ষতা/পারদর্শিতা
+                                        ৩৩। বিশেষ দক্ষতা/পারদর্শিতা
                                     </div>
                                     <div class="col-sm-8">
                                         <?php
@@ -722,7 +736,7 @@ if ($status == 'empty') {
                             </div> 
 
                             <div role="tabpanel" class="tab-pane fade " id="nominee_information">
-                                ৩৩। নমিনির তথ্য: <br /> <br />
+                                ৩৪। নমিনির তথ্য: <br /> <br />
                                 (ক)	জিপিএফ:
 
                                 <table class="table table-bordered table-striped">

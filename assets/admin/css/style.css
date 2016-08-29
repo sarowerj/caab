@@ -183,3 +183,7 @@ table.table tr th{
     list-style: none;
     margin-bottom: 10px;
 }
+.progress-description, .info-box-text{
+    white-space: initial;
+    overflow: visible;
+}

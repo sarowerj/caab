@@ -47,37 +47,14 @@ if ($status == 'empty') {
                                 $emp_dept = $info['basic_info'][0]['emp_dept'];
                             }
                             ?>
-                            <select name="emp_dept" class="form-control">
-                                <option <?php echo ($emp_dept == 'সশস্ত্র-নিরাপত্তা-প্রহরী') ? 'selected ' : ''; ?> value="সশস্ত্র-নিরাপত্তা-প্রহরী">সশস্ত্র নিরাপত্তা প্রহরী</option>
-                                <option <?php echo ($emp_dept == 'এমটি,-ক্লিনার') ? 'selected ' : ''; ?> value="এমটি,-ক্লিনার">এমটি, ক্লিনার</option>
-                                <option <?php echo ($emp_dept == 'রাজশাহী-বিমানবন্দর') ? 'selected ' : ''; ?> value="রাজশাহী-বিমানবন্দর">রাজশাহী বিমানবন্দর</option>
-                                <option <?php echo ($emp_dept == 'সিভিল-ডিভশন-2') ? 'selected ' : ''; ?> value="সিভিল-ডিভশন-2">সিভিল ডিভশন-2</option>
-                                <option <?php echo ($emp_dept == 'সিভিল-ডিভশন-1') ? 'selected ' : ''; ?> value="সিভিল-ডিভশন-1">সিভিল ডিভশন-1</option>
-                                <option <?php echo ($emp_dept == 'সিভিল-সার্কেল') ? 'selected ' : ''; ?> value="সিভিল-সার্কেল">সিভিল সার্কেল</option>
-                                <option <?php echo ($emp_dept == 'সম্পত্তি-শাখা') ? 'selected ' : ''; ?> value="সম্পত্তি-শাখা">সম্পত্তি শাখা</option>
-                                <option <?php echo ($emp_dept == 'সদস্য-(পরিঃ)') ? 'selected ' : ''; ?> value="সদস্য-(পরিঃ)">সদস্য (পরিঃ)</option>
-                                <option <?php echo ($emp_dept == 'চেয়ারম্যান-সচিবালয়') ? 'selected ' : ''; ?> value="চেয়ারম্যান-সচিবালয়">চেয়ারম্যান সচিবালয়</option>
-                                <option <?php echo ($emp_dept == 'আইন-শাখা') ? 'selected ' : ''; ?> value="আইন-শাখা">আইন শাখা</option>
-                                <option <?php echo ($emp_dept == 'সদর-দপ্তর,-এমটি-পুল') ? 'selected ' : ''; ?> value="সদর-দপ্তর,-এমটি-পুল" >সদর দপ্তর, এমটি পুল</option>
-                                <option <?php echo ($emp_dept == 'যোগাযোগ-বিভাগ') ? 'selected ' : ''; ?> value="যোগাযোগ-বিভাগ" >যোগাযোগ বিভাগ</option>
-                                <option <?php echo ($emp_dept == 'এটিএস-এন্ড-এরো-বিভাগ') ? 'selected ' : ''; ?> value="এটিএস-এন্ড-এরো-বিভাগ" >এটিএস এন্ড এরো বিভাগ</option>
-                                <option <?php echo ($emp_dept == 'পরিকল্পনা-ও-প্রশিক্ষণ-বিভাগ') ? 'selected ' : ''; ?> value="পরিকল্পনা-ও-প্রশিক্ষণ-বিভাগ" >পরিকল্পনা ও প্রশিক্ষণ বিভাগ</option>
-                                <option <?php echo ($emp_dept == 'এফএস-আর-বিভাগ') ? 'selected ' : ''; ?> value="এফএস-আর-বিভাগ" >এফএস আর বিভাগ</option>
-                                <option <?php echo ($emp_dept == 'অর্থ-বিভাগ') ? 'selected ' : ''; ?> value="অর্থ-বিভাগ" >অর্থ বিভাগ</option>
-                                <option <?php echo ($emp_dept == 'প্রধান-প্রকৌশলীর-দপ্তর') ? 'selected ' : ''; ?> value="প্রধান-প্রকৌশলীর-দপ্তর" >প্রধান প্রকৌশলীর দপ্তর</option>
-                                <option <?php echo ($emp_dept == 'প্রশাসন-বিভাগ') ? 'selected ' : ''; ?> value="প্রশাসন-বিভাগ" >প্রশাসন বিভাগ</option>
-                                <option <?php echo ($emp_dept == 'অডিট-ভবন') ? 'selected ' : ''; ?> value="অডিট-ভবন" >অডিট ভবন</option>
-                                <option <?php echo ($emp_dept == 'জনসংযোগ-বিভাগ') ? 'selected ' : ''; ?> value="জনসংযোগ-বিভাগ" >জনসংযোগ বিভাগ</option>
-                                <option <?php echo ($emp_dept == 'প্রশাসন-বিভাগ-2') ? 'selected ' : ''; ?> value="প্রশাসন-বিভাগ-2" >প্রশাসন বিভাগ-2</option>
-                                <option <?php echo ($emp_dept == 'যোগাযোগ-বিভাগ') ? 'selected ' : ''; ?> value="যোগাযোগ-বিভাগ" >যোগাযোগ বিভাগ</option>
-                                <option <?php echo ($emp_dept == 'প্রশাসন-শাখা') ? 'selected ' : ''; ?> value="প্রশাসন-শাখা" >প্রশাসন শাখা</option>
-                                <option <?php echo ($emp_dept == 'সিভিল-ডিভিশন-3') ? 'selected ' : ''; ?> value="সিভিল-ডিভিশন-3" >সিভিল ডিভিশন-3</option>
-                                <option <?php echo ($emp_dept == 'ই/এম-সার্কেল-2') ? 'selected ' : ''; ?> value="ই/এম-সার্কেল-2" >ই/এম সার্কেল-2</option>
-                                <option <?php echo ($emp_dept == 'ই/এম-বিভাগ-1') ? 'selected ' : ''; ?> value="ই/এম-বিভাগ-1" >ই/এম বিভাগ-1</option>
-                                <option <?php echo ($emp_dept == 'ই/এম-বিভাগ-2') ? 'selected ' : ''; ?> value="ই/এম-বিভাগ-2" >ই/এম বিভাগ-2</option>
-                                <option <?php echo ($emp_dept == 'ই/এম-বিভাগ-3') ? 'selected ' : ''; ?> value="ই/এম-বিভাগ-3" >ই/এম বিভাগ-3</option>
-                                <option <?php echo ($emp_dept == 'পরিচালকের-দপ্তর') ? 'selected ' : ''; ?> value="পরিচালকের-দপ্তর" >পরিচালকের দপ্তর</option>
-                                <option <?php echo ($emp_dept == 'বেসামরিক-বিমান-চলাচল-কর্তৃপক্ষ') ? 'selected ' : ''; ?> value="বেসামরিক-বিমান-চলাচল-কর্তৃপক্ষ" >বেসামরিক বিমান চলাচল কর্তৃপক্ষ</option>
+                            <select name="emp_dept" class="form-control" id="emp_dept">
+                                <?php
+                                foreach ($dept as $single_dept) {
+                                    ?>
+                                    <option <?php echo($emp_dept==$single_dept->slug)?'selected':''; ?> value="<?php echo $single_dept->slug; ?>"><?php echo $single_dept->dept; ?></option>
+                                    <?php
+                                }
+                                ?>
                             </select>
                             <input type="hidden" name="lan" value="bn" />
                         </div>
