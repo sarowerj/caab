@@ -1,0 +1,11 @@
+{
+    "name": "vendor/caab",
+    "description": "Description of project caab.",
+    "authors": [
+        {
+            "name": "SAROWER",
+            "email": "your@email.here"
+        }
+    ],
+    "require": {}
+}

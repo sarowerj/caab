@@ -16,12 +16,10 @@
         <!-- Ionicons -->
         <link rel="stylesheet" href="<?php echo base_url(); ?>assets/admin/css/ionicons.min.css">
         <!-- Theme style -->
-        <link rel="stylesheet" href="<?php echo base_url(); ?>assets/admin/css/AdminLTE.min.css">
-        <link rel="stylesheet" href="<?php echo base_url(); ?>assets/admin/css/admin.css">
+        <link rel="stylesheet" href="<?php echo base_url(); ?>assets/admin/css/AdminLTE.min.css"> 
 
         <!-- AdminLTE Skins. Choose a skin from the css/skins
-             folder instead of downloading all of them to reduce the load. -->
-        <link rel="stylesheet" href="<?php echo base_url(); ?>assets/admin/css/_all-skins.min.css">
+             folder instead of downloading all of them to reduce the load. --> 
         <link rel="stylesheet" href="<?php echo base_url(); ?>assets/plugins/timepicker/bootstrap-timepicker.min.css">
         <!-- DataTables -->
         <link rel="stylesheet" href="<?php echo base_url(); ?>assets/plugins/datatables/dataTables.bootstrap.css">
@@ -40,17 +38,17 @@
     <body class="hold-transition login-page">
         <div class="login-box">
             <div class="login-logo">
-                <a href="#"><b>Admin</b>Panel</a>
+                <a href="#"><b>Employee</b>Panel</a>
             </div><!-- /.login-logo -->
             <div class="login-box-body">
                 <p class="login-box-msg">Sign in to start your session</p>
-                <form id="login_form" action="<?php echo base_url(); ?>login" method="post" accept-charset="utf-8">
+                <form id="login_form" action="<?php echo base_url('site/profile'); ?>" method="post" accept-charset="utf-8">
                     <div class="form-group has-feedback">
-                        <input required="" name="username" id="username" type="text" class="form-control" placeholder="Username">
+                        <input required="" name="emp_name" id="username" type="text" class="form-control" placeholder="Username">
                         <span class="glyphicon glyphicon-envelope form-control-feedback"></span>
                     </div>
                     <div class="form-group has-feedback">
-                        <input required=""  name="password" id="password" type="password" class="form-control" placeholder="Password">
+                        <input required=""  name="emp_pin" id="password" type="password" class="form-control" placeholder="Pin Code">
                         <span class="glyphicon glyphicon-lock form-control-feedback"></span>
                     </div>
                     <div class="row">
@@ -62,8 +60,6 @@
                 </form>
 
 
-
-
             </div><!-- /.login-box-body -->
         </div><!-- /.login-box -->
 
@@ -73,30 +69,5 @@
 
 
 
-        <script type='text/javascript'>
-            /* attach a submit handler to the form */
-            $("#login_form").submit(function (event) {
-
-                /* stop form from submitting normally */
-                event.preventDefault();
-
-                /* get some values from elements on the page: */
-                var $form = $(this),
-                        url = $form.attr('action');
-                /* Send the data using post */
-                var posting = $.post(url, {username: $('#username').val(), password: $('#password').val()});
-
-                /* Alerts the results */
-                posting.done(function (data) {
-                    var obj = jQuery.parseJSON(data);
-                    if (obj.error == 1)
-                    {
-                        alert('Username or, Password missmatch.');
-                    } else {
-                        window.location.replace("<?php echo base_url(); ?>admin");
-                    }
-                });
-            });
-        </script>
     </body>
 </html>

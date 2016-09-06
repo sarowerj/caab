@@ -155,7 +155,9 @@ if ($status == 'empty') {
                                     <div class="col-sm-8">
                                         <?php
                                         if (isset($info['basic_info'][0]['emp_promotion_date'])) {
-                                            echo date('d/m/Y', $info['basic_info'][0]['emp_promotion_date']) . ' ইং';
+                                            if (!empty($info['basic_info'][0]['emp_promotion_date'])) {
+                                                echo date('d/m/Y', $info['basic_info'][0]['emp_promotion_date']) . ' ইং';
+                                            }
                                         }
                                         ?>
                                     </div>
