@@ -42,17 +42,12 @@
             </div><!-- /.login-logo -->
             <div class="login-box-body">
                 <p class="login-box-msg">Sign in to start your session</p>
-                <form id="login_form" action="<?php echo base_url('site/profile'); ?>" method="post" accept-charset="utf-8">
+                <form id="login_form" action="<?php echo base_url('Site/check_login'); ?>" method="post" accept-charset="utf-8">
                     <div class="form-group has-feedback">
-                        <input required="" name="emp_name" id="username" type="text" class="form-control" placeholder="Username">
+                        <input required="" name="emp_id" id="emp_id" type="text" class="form-control" placeholder="Employee ID">
                         <span class="glyphicon glyphicon-envelope form-control-feedback"></span>
                     </div>
-                    <div class="form-group has-feedback">
-                        <input required=""  name="emp_pin" id="password" type="password" class="form-control" placeholder="Pin Code">
-                        <span class="glyphicon glyphicon-lock form-control-feedback"></span>
-                    </div>
                     <div class="row">
-
                         <div class="col-xs-4">
                             <button type="submit" class="btn btn-primary btn-block btn-flat">Sign In</button>
                         </div><!-- /.col -->

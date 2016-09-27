@@ -42,7 +42,7 @@ class Login extends MY_Controller {
             echo json_encode(['error' => $error]);
             die();
         } else {
-            $this->load->view('site/login');
+            $this->load->view('login');
         }
     }
 

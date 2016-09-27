@@ -19,6 +19,29 @@ class Site_model extends Ci_Model {
                 ->get();
         return $query->result_array();
     }
+    
+    public function getByIdLnBasic($tbl_name, $emp_id, $lan) {
+        $check = array(
+            'id' => $emp_id,
+            'lan' => $lan
+        );
+        $query = $this->db->where($check)
+                ->from($tbl_name)
+                ->limit(1)
+                ->get();
+        return $query->result_array();
+    }
+
+    public function getByIdLn($tbl_name, $emp_id, $lan) {
+        $check = array(
+            'emp_id' => $emp_id,
+            'lan' => $lan
+        );
+        $query = $this->db->where($check)
+                ->from($tbl_name)
+                ->get();
+        return $query->result_array();
+    }
 
 }
 

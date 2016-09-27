@@ -50,3 +50,77 @@ img.plane.show{
 .profile_page{
     padding-top: 100px;
 }
+ 
+
+
+/*========== Emp Profile ==========*/
+.emp_profile_page{
+    margin-top:50px;
+}
+.emp_profile_page .banner{
+    background-image: url('../images/banner_image.jpg');
+    background-repeat: no-repeat;
+    min-height: 200px;
+    position: relative;
+    padding-top: 200px;
+    background-color:white;
+    border: 1px solid #e2e2e2;
+}
+.emp_profile_page .banner .profile_picture{
+    position: absolute;
+    left:40px;
+    bottom:-20px;
+    width:180px;
+    height:180px;
+    background:white;
+    padding:5px;
+    border:1px solid #e2e2e2;
+}
+.emp_profile_page .profile_content{
+    margin-top:30px;
+    background:white;
+    border: 1px solid #e2e2e2;
+    padding:15px;
+    font-family: 'SolaimanLipi';
+}
+.emp_profile_page .nav-tabs{
+    border-bottom: 0;
+}
+.emp_profile_page .nav-tabs a{
+    border-radius: 0;
+}
+.emp_profile_page .nav-tabs .active a,
+.emp_profile_page .nav-tabs .active a:focus,
+.emp_profile_page .nav-tabs .active a:hover{
+    border-color: transparent;
+    border-bottom-color: #e2e2e2;
+    background-image: url('../images/arrow_top.png');
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    background-color:transparent;
+}
+.emp_profile_page .profile_content .inside{
+    padding-left:30px;
+}
+.emp_profile_page .profile_content .address{
+    margin:0;
+    padding: 0;
+}
+.emp_profile_page .profile_content .address li{
+    list-style: none;
+}
+.emp_profile_page .profile_content .address li .label{
+    color:black;
+    font-size: 14px;
+    font-weight: normal;
+    display: inline-block;
+    width: 100px;
+    text-align: left;
+    position: relative;
+    margin-right: 10px;
+}
+.emp_profile_page .profile_content .address li .label::after{
+    content:':';
+    position: absolute;
+    right:0;
+}
